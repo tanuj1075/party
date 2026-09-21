@@ -1,0 +1,132 @@
+{
+  "ticket_counter": 4,
+  "admins": [
+    {
+      "id": 1,
+      "email": "admin@msap.org",
+      "password_hash": "$2b$10$w4FhWLtYbl4o2AbbamamJew3ubjATRciLWRvMn9TVU7dkbXhJFxcK",
+      "role": "ADMIN",
+      "created_at": "2026-09-21T07:05:11.085Z"
+    }
+  ],
+  "attendees": [
+    {
+      "id": 4,
+      "ticket_id": null,
+      "full_name": "Tanuj Dorugade",
+      "phone": "7410543226",
+      "email": "tanujdorugade0226@gmail.com",
+      "college": "B.Arch - Architecture",
+      "category": "FRESHER",
+      "payment_status": "PENDING",
+      "entry_pass_status": "NOT_CREATED",
+      "registration_status": "REGISTERED",
+      "qr_token": null,
+      "access_token": "acc_df087d018f632a1cf130e70c476ae99720ea35616ef8016e",
+      "check_in_status": "NOT_CHECKED_IN",
+      "google_response_id": null,
+      "student_roll_id": "267025",
+      "payment_utr": null,
+      "payment_confirmed_at": null,
+      "payment_confirmed_by": null,
+      "check_in_time": null,
+      "created_at": "2026-09-21T14:08:07.757Z",
+      "updated_at": "2026-09-21T14:08:07.757Z"
+    },
+    {
+      "id": 3,
+      "ticket_id": "FM26-003",
+      "full_name": "Laishram Bipin Meitei",
+      "phone": "+91 91234 56789",
+      "email": "bipin.l@msap.edu.in",
+      "college": "M.Plan - Urban Planning",
+      "category": "SENIOR",
+      "payment_status": "PENDING",
+      "registration_status": "REGISTERED",
+      "qr_token": "msap_token_5429ddab7fee5e2e557a6df0a0f6c1ac56c094a64a71a182917864c226fea7b8",
+      "access_token": "acc_3f1ff13938abc20950a07257320141dc4eaf3e0e5462a7ba",
+      "check_in_status": "NOT_CHECKED_IN",
+      "google_response_id": "resp_gform_12345",
+      "student_roll_id": "240900112",
+      "payment_utr": "UTR-3920194821X",
+      "payment_confirmed_at": null,
+      "payment_confirmed_by": null,
+      "check_in_time": null,
+      "created_at": "2026-09-21T07:05:51.598Z",
+      "updated_at": "2026-09-21T07:05:51.598Z"
+    },
+    {
+      "id": 2,
+      "ticket_id": "FM26-002",
+      "full_name": "Ngangom Pritam Singh",
+      "phone": "+91 98765 11223",
+      "email": "pritam.ng@msap.edu.in",
+      "college": "B.Arch - Architecture",
+      "category": "FRESHER",
+      "payment_status": "PAID",
+      "registration_status": "REGISTERED",
+      "qr_token": "msap_token_05be996405526957ba5aafc745c59089b1cb1beb6e22fa6ddadf14de2cc29f2c",
+      "access_token": "acc_88e85feb862e4ea46b6d72ad60060eade4fcf61f5b7fe0a9",
+      "check_in_status": "CHECKED_IN",
+      "google_response_id": null,
+      "student_roll_id": "260901890",
+      "payment_utr": "UTR-8829104921X",
+      "payment_confirmed_at": "2026-09-21T07:05:34.365Z",
+      "payment_confirmed_by": "admin@msap.org",
+      "check_in_time": "2026-09-21T07:05:44.966Z",
+      "created_at": "2026-09-21T07:05:29.120Z",
+      "updated_at": "2026-09-21T07:05:44.966Z"
+    },
+    {
+      "id": 1,
+      "ticket_id": "FM26-001",
+      "full_name": "Aarav Sharma",
+      "phone": "+91 98765 43210",
+      "email": "aarav.fresh26@msap.edu.in",
+      "college": "B.Arch - Architecture",
+      "category": "FRESHER",
+      "payment_status": "PAID",
+      "registration_status": "REGISTERED",
+      "qr_token": "msap_qr_token_7f9c8d1e2a3b4c5d6e7f8a9b0c1d2e3f",
+      "access_token": "acc_token_aarav_sharma_001",
+      "check_in_status": "NOT_CHECKED_IN",
+      "google_response_id": "GSHEET_INITIAL_SEED_001",
+      "student_roll_id": "260901248",
+      "payment_utr": "UTR-99201948218X",
+      "payment_confirmed_at": "2026-09-20T10:00:00Z",
+      "payment_confirmed_by": "admin@msap.org",
+      "check_in_time": null,
+      "created_at": "2026-09-21T07:05:10.958Z",
+      "updated_at": "2026-09-21T07:05:10.959Z"
+    }
+  ],
+  "checkins": [
+    {
+      "id": 1,
+      "attendee_id": 2,
+      "ticket_id": "FM26-002",
+      "checked_in_by": "admin@msap.org",
+      "check_in_time": "2026-09-21T07:05:44.966Z"
+    }
+  ],
+  "event_settings": {
+    "time": "5:30 PM Sharp",
+    "venue": "Pune (MSAP Campus Main Auditorium)",
+    "registrationPrice": 350,
+    "updatedAt": "2026-09-21T07:05:00.000Z"
+  },
+  "payment_transactions": [
+    {
+      "id": 1,
+      "registration_id": 4,
+      "gateway_provider": "razorpay",
+      "gateway_order_id": "order_raz_4_mubblikw",
+      "amount": 350,
+      "currency": "INR",
+      "status": "PENDING",
+      "created_at": "2026-09-21T14:08:07.765Z",
+      "updated_at": "2026-09-21T14:08:07.765Z"
+    }
+  ],
+  "audit_logs": []
+}
